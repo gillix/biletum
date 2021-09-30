@@ -34,22 +34,38 @@ $(document).ready(function(){
 
 /* Slider  */
 new Swiper('.slider-container',{
-	centeredSlides: true,
-	slidesPerView: 'auto',
-	loop:true,
+	slidesPerView: 1,
+	watchOverflow: true,
 	spaceBetween:16,
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev'
-	},
 	touchRatio:2,
 	grabCursor: true,
+	watchOverflow: true,
+	navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
 	keyboard: {
 		enabled: true,
 		onlyInViewport: true,
 		pageUpDown: true,
 	},
+	breakpoints: {
+		640: {
+			slidesPerView: 1,
+			spaceBetween: 32,
+		},
+		1023: {
+			slidesPerView: 2,
+			spaceBetween: 32,
+		},
+		1400: {
+			slidesPerView: 3,
+			spaceBetween: 40,
+		},
+	},
 });
+
+
 
 /* Reviews  */
 new Swiper('.reviews-slider',{
@@ -57,7 +73,6 @@ new Swiper('.reviews-slider',{
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev'
 	},
-
 	spaceBetween:24,
 	touchRatio:2,
 	grabCursor: true,

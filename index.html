@@ -3,10 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+	<meta name="description" content="Единая многофункциональная платформа для проведения мероприятий, автоматизации дистрибуции, продажи билетов и экспо-стендов.">
 	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="css/style.min.css">
-	<title>Starter</title>
+	<title>Платформа для организации бизнес-мероприятий - Biletum</title>
 </head>
 <body>
 	<div class="site-container">
@@ -60,7 +62,7 @@
 	</div>
 </header>
 		<main class="main">
-			<div class="container">
+			<div class="container title-container">
 				<div class="title">
 					<div class="your">Your</div>
 					<div class="wow">WOW!!</div>
@@ -69,9 +71,16 @@
 						Biletum — инновационная экосистема сервисов и платформ для организации бизнес-мероприятий любого масштаба и формата проведения
 					</div>
 				</div>
+				<div class="title-btn">
+					<div>
+						<a href="https://ticketforevent.com/ru/biletnyiy-servis-dlya-organizatorov-meropriyatiy" class="btn btn-sale">Хочу продавать билеты</a>
+					</div>
+					<div>
+						<a href="https://expopromoter.com/organizers/" class="btn btn-promo">Хочу привлекать посетителей</a>
+					</div>
+				</div>
 			</div>
-			<div class="banner">
-			</div>
+			<div class="banner"></div>
 			<div class="slider services-goto">
 	<div class="container">
 		<h2 class="slider__title">Мы готовы помочь</h2>
@@ -86,7 +95,9 @@
 					<p>Единое диджитал пространство для работы внутреннего отдела продаж и партнеров</p>
 					<p>Полный спектр маркетинговых инструментов для увеличения конверсии и продаж</p>
 				</div>
-				<a href="https://ticketforevent.com/ru/biletnyiy-servis-dlya-organizatorov-meropriyatiy/" class="btn btn-orange">Узнать подробнее</a>
+				<div>
+					<a href="https://ticketforevent.com/ru/biletnyiy-servis-dlya-organizatorov-meropriyatiy/" class="btn btn-orange">Узнать подробнее</a>
+				</div>
 			</div>
 			<div class="swiper-slide slider__item">
 				<div class="slider__text">
@@ -95,7 +106,9 @@
 					<p>Дистрибуция в сети Biletum - 12 978 партнеров в 86 странах мира</p>
 					<p>Привлечение покупателей из аудитории Biletum - более 10 млн. пользователей</p>
 				</div>
-				<a href="https://expopromoter.com/organizers/" class="btn btn-orange">Узнать подробнее</a>
+				<div>
+					<a href="https://expopromoter.com/organizers/" class="btn btn-orange">Узнать подробнее</a>
+				</div>
 			</div>
 			<div class="swiper-slide slider__item">
 				<div class="slider__text">
@@ -104,7 +117,9 @@
 					<p>Полная автоматизация передачи данных с платформами</p>
 					<p>Автоматическое создание мобильного приложения мероприятия</p>
 				</div>
-				<a href="https://expopromoter.com" class="btn btn-orange">Узнать подробнее</a>
+				<div>
+					<a href="https://expopromoter.com" class="btn btn-orange">Узнать подробнее</a>
+				</div>
 			</div>
 		</div>
 		<div class="swiper-button-prev"></div>
@@ -193,18 +208,29 @@
 		<h2 class="clients__title">Клиенты</h2>
 		<p class="clients__desc">Нашими услугами уже пользуются крупнейшие организаторы мероприятий Китая, России и Восточной Европы, включая Canton Fair, UBM, VNU, HKTDC, SIEC. Общий оборот текущих клиентов составляет более $2 млрд. в год.</p>
 		<div class="clients__logo">
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
+			<ul class="partners">
+				<li class="partners__item"><img src="./img/clients/Beijing Hiven Exhibition.jpg" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/China Kids Expo.png" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/CHINA SPORTING GOODS FEDERATION.jpg" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/CIEC Exhibition Company Limited.png" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/ciodpa.png" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/comexposium.jpg" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/Donnor Exhibition.jpg" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/messe dusseldorf logo.png" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/Messe Frankfurt.jpg" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/messe muenchen international.jpg" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/Poly Jinhan Exhibition.png" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/Reed Sinopharm Exhibitions.jpg" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/reed sinopharm.jpg" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/reed-exhibitions.png" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/Shanghai International Exhibition.png" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/UBM Sinoexpo.jpg" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/VNU.Exhibitions.png" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/world-education-services-wes.png" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/YASN International Exhibition.png" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/Zhenwei Exhibition Group.png" alt=""></li>
+				<li class="partners__item"><img src="./img/clients/zmexpo logo.png" alt=""></li>
+			</ul>
 		</div>
 	</div>
 </div>
@@ -213,18 +239,20 @@
 		<h2 class="clients__title">Партнеры</h2>
 		<p class="clients__desc">Привлечь ещё больше посетителей на мероприятия поможет сеть партнёров Biletum.</p>
 		<div class="clients__logo">
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
-			<div><a href="#"><img src="./img/logo_fake.png", width="224" alt="logo"></a></div>
+			<ul class="partners">
+				<li class="partners__item"><img src="./img/partners/b2bexport_logo.png" alt=""></li>
+				<li class="partners__item"><img src="./img/partners/dynamic group логотип.jpg" alt=""></li>
+				<li class="partners__item"><img src="./img/partners/eventful.jpg" alt=""></li>
+				<li class="partners__item"><img src="./img/partners/Evvnt.png" alt=""></li>
+				<li class="partners__item"><img src="./img/partners/expoasia.jpg" alt=""></li>
+				<li class="partners__item"><img src="./img/partners/expomap-logo.jpg" alt=""></li>
+				<li class="partners__item"><img src="./img/partners/fialan.jpg" alt=""></li>
+				<li class="partners__item"><img src="./img/partners/ilikevents.jpg" alt=""></li>
+				<li class="partners__item"><img src="./img/partners/trade india.jpg" alt=""></li>
+				<li class="partners__item"><img src="./img/partners/world expo.jpg" alt=""></li>
+				<li class="partners__item"><img src="./img/partners/Китайский компот.png" alt=""></li>
+				<li class="partners__item"><img src="./img/partners/ЛАОВАЙ.РУ.png" alt=""></li>
+			</ul>
 		</div>
 	</div>
 </div>
@@ -339,6 +367,26 @@
 					</div>
 				</a>
 
+				<a href="https://ua.linkedin.com/in/sovenko-alina-88bba536" class="card">
+					<div class="card__photo">
+						<img src="./img/sovenko-alina.jpg" alt="Sovenko Alina">
+					</div>
+					<div class="card__info">
+						<p>Алина Совенко</p>
+						<span>Managing Director (Europe)</span>
+					</div>
+				</a>
+
+				<a href="https://ua.linkedin.com/in/yury-timoschuk-b895246" class="card">
+					<div class="card__photo">
+						<img src="./img/yury-timoschuk.jpg" alt="Yury Timoschuk">
+					</div>
+					<div class="card__info">
+						<p>Юрий Тимощук</p>
+						<span>Chief Technical Officer (Europe, Asia)</span>
+					</div>
+				</a>
+
 				<a href="https://ua.linkedin.com/in/alyona-yakovina-229423199" class="card">
 					<div class="card__photo">
 						<img src="./img/AlyonaYakovyna.jpg" alt="Alyona Yakovyna">
@@ -348,17 +396,6 @@
 						<span>Chief Financial Officer (Europe, Asia)</span>
 					</div>
 				</a>
-
-				<a href="#" class="card">
-						<div class="card__photo">
-							<img src="./img/EmmaZhang.jpg" alt="Emma Zhang">
-						</div>
-						<div class="card__info">
-							<p>Эмма Джанг</p>
-							<span>Business Development Manager (Asia)</span>
-						</div>
-				</a>
-
 				<a href="https://ru.linkedin.com/in/svyatoslav-alyokhin-96a88ba8 " class="card">
 					<div class="card__photo">
 						<img src="./img/SvyatoslavAlyokhin.jpg" alt="Svyatoslav Alyokhin">
@@ -368,7 +405,6 @@
 						<span>Business Development Director (Russia)</span>
 					</div>
 				</a>
-
 				<a href="https://www.linkedin.com/in/oleynikov88" class="card">
 					<div class="card__photo">
 						<img src="./img/VolodymyrOleynyk.jpg" alt="Volodymyr Oleynyk">
@@ -378,27 +414,15 @@
 						<span>Business Development Director (Ukraine)</span>
 					</div>
 				</a>
-
-				<a href="https://www.linkedin.com/in/oleynikov88" class="card">
-					<div class="card__photo">
-						<img src="./img/VolodymyrOleynyk.jpg" alt="Volodymyr Oleynyk">
-					</div>
-					<div class="card__info">
-						<p>Владимир Олейников</p>
-						<span>Business Development Director (Ukraine)</span>
-					</div>
+				<a href="#" class="card">
+						<div class="card__photo">
+							<img src="./img/EmmaZhang.jpg" alt="Emma Zhang">
+						</div>
+						<div class="card__info">
+							<p>Эмма Джанг</p>
+							<span>Business Development Manager (Asia)</span>
+						</div>
 				</a>
-
-				<a href="https://www.linkedin.com/in/oleynikov88" class="card">
-					<div class="card__photo">
-						<img src="./img/VolodymyrOleynyk.jpg" alt="Volodymyr Oleynyk">
-					</div>
-					<div class="card__info">
-						<p>Владимир Олейников</p>
-						<span>Business Development Director (Ukraine)</span>
-					</div>
-				</a>
-
 			</div>
 		</div>
 	</div>
