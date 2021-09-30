@@ -454,7 +454,7 @@ template {
 
 body {
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   color: #111111;
   line-height: 1.6;
 }
@@ -864,11 +864,6 @@ a.menu__link:hover {
   background-repeat: no-repeat;
   margin: 0;
   width: 500px;
-}
-
-.skills-expo,
-.skills-tiket {
-  width: 350px;
 }
 
 .skills__magic {
@@ -1463,6 +1458,40 @@ a.menu__link:hover {
   }
 }
 
+@media only screen and (min-width: 1400px) {
+  .skills__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .skills-expo,
+  .skills-tiket {
+    max-width: 340px;
+    width: 100%;
+    margin-bottom: 1.2em;
+  }
+
+  .skills-biletum {
+    margin: 0 20px;
+  }
+
+  .skills__magic {
+    left: 140px;
+  }
+
+  .skills__list ul li {
+    font-size: 18px;
+  }
+}
+
 @media only screen and (min-width: 1601px) {
   .title-container {
     -webkit-box-align: start;
@@ -1494,10 +1523,87 @@ a.menu__link:hover {
   }
 }
 
+@media only screen and (max-width: 1400px) {
+  .skills__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .skills-expo,
+  .skills-tiket {
+    max-width: 340px;
+    width: 100%;
+    margin-bottom: 1.2em;
+  }
+
+  .skills-biletum {
+    margin: 0 20px;
+  }
+
+  .skills__magic {
+    left: 140px;
+  }
+}
+
 @media only screen and (max-width: 1199px) {
+  .slider__title,
+  .skills__title {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: -0.01em;
+    margin: 2.6em 0 0.4em 0;
+    text-align: center;
+  }
+
+  .slider__bg {
+    width: 338.28px;
+    height: 297.47px;
+    z-index: -2;
+    left: 60px;
+    top: -60px;
+  }
+
   .swiper-button-next,
   .swiper-button-prev {
     display: block;
+  }
+
+  .skills__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  .skills-biletum {
+    display: none;
+  }
+
+  .skills__list ul li {
+    font-size: 18px;
+  }
+
+  .skills-expo,
+  .skills-tiket {
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 1.2em;
   }
 }
 
@@ -1618,6 +1724,66 @@ a.menu__link:hover {
   }
 }
 
+@media only screen and (max-width: 1022px) {
+  .skills__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .skills-expo,
+  .skills-tiket {
+    max-width: 540px;
+    width: 100%;
+    margin-bottom: 1.2em;
+  }
+
+  .skills-biletum {
+    display: none;
+  }
+
+  .skills__logo {
+    width: 80%;
+    padding: 16px 16px 16px 32px;
+  }
+
+  .skills__date,
+  .skills__list {
+    padding: 0 16px 0 32px;
+  }
+
+  .skills__date {
+    font-size: 24px;
+  }
+
+  .skills__list ul li {
+    font-size: 18px;
+  }
+
+  .skills__list ul li::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: -24px;
+    width: 1px;
+    height: 30px;
+    background-color: #000000;
+    -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+  }
+}
+
 @media only screen and (max-width: 599px) {
   .btn-sale,
   .btn-promo {
@@ -1675,7 +1841,8 @@ a.menu__link:hover {
     font-size: 28px;
     font-weight: bold;
     letter-spacing: -0.01em;
-    margin: 1.6em 0 0.4em 0;
+    margin: 2.6em 0 0.4em 0;
+    text-align: center;
   }
 
   .slider__bg {
@@ -1683,7 +1850,7 @@ a.menu__link:hover {
     height: 297.47px;
     z-index: -2;
     left: 110px;
-    top: -80px;
+    top: -60px;
   }
 
   .slider__item {
@@ -1698,7 +1865,7 @@ a.menu__link:hover {
   }
 
   .slider__item h3 {
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.16;
     color: #111111;
     font-family: "Point-Bold", sans-serif;
@@ -1712,6 +1879,60 @@ a.menu__link:hover {
     line-height: 1.6;
     color: #111111;
     margin-bottom: 0;
+  }
+
+  .skills__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .skills-expo,
+  .skills-tiket {
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 1.2em;
+  }
+
+  .skills-biletum {
+    display: none;
+  }
+
+  .skills__logo {
+    width: 80%;
+    padding: 16px 16px 16px 32px;
+  }
+
+  .skills__date,
+  .skills__list {
+    padding: 0 16px 0 32px;
+  }
+
+  .skills__date {
+    font-size: 24px;
+  }
+
+  .skills__list ul li::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: -24px;
+    width: 1px;
+    height: 30px;
+    background-color: #000000;
+    -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg);
   }
 }
 
@@ -1761,6 +1982,7 @@ a.menu__link:hover {
   .decs {
     margin: 20px 0;
     line-height: 1.7;
+    font-size: 18px;
   }
 }
 
@@ -1780,9 +2002,9 @@ a.menu__link:hover {
 
   .banner {
     display: block;
-    top: -2.2em;
+    top: -4.2em;
     right: -22em;
-    max-width: 900px;
+    max-width: 1200px;
   }
 
   .title {
@@ -1821,8 +2043,8 @@ a.menu__link:hover {
   }
 
   .decs {
-    font-size: 15px;
-    margin: 20px 0;
+    font-size: 18px;
+    margin: 40px 0;
     line-height: 1.6;
     max-width: 400px;
   }
