@@ -75,15 +75,28 @@ new Swiper('.reviews-slider',{
 	},
 	spaceBetween:24,
 	touchRatio:2,
+	slidesPerView: 1,
 	grabCursor: true,
 	keyboard: {
 		enabled: true,
 		onlyInViewport: true,
 		pageUpDown: true,
 	},
-	slidesPerView:2.3,
-	autoHeight: true,
 
+	breakpoints: {
+		640: {
+			slidesPerView: 1,
+			spaceBetween: 24,
+		},
+		1023: {
+			slidesPerView: 2,
+			spaceBetween: 24,
+		},
+		1400: {
+			slidesPerView: 2.4,
+			spaceBetween: 24,
+		},
+	},
 });
 
 /* scrollTo */
