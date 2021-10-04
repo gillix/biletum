@@ -507,6 +507,16 @@ body.lock {
   position: relative;
 }
 
+.lng-menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .lng-menu__list > li {
   display: inline-block;
   cursor: pointer;
@@ -520,13 +530,13 @@ body.lock {
   display: none;
 }
 
-a.menu__link {
+li.menu__link {
   color: #000000;
-  font-size: 14px;
+  font-size: 18px;
   text-decoration: none;
 }
 
-a.menu__link:hover {
+li.menu__link:hover {
   text-decoration: underline;
 }
 
@@ -1454,6 +1464,10 @@ a.menu__link:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 
   .lng-menu__list > li {
