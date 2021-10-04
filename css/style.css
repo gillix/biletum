@@ -379,7 +379,7 @@ template {
   text-decoration: none;
 }
 
-.btn-sale {
+.lng-btn-sale {
   background: -webkit-gradient(linear, left top, right top, from(#FF8786), to(#FACE8A));
   background: -o-linear-gradient(left, #FF8786 0%, #FACE8A 100%);
   background: linear-gradient(90deg, #FF8786 0%, #FACE8A 100%);
@@ -389,7 +389,7 @@ template {
   margin: 0 1em 0 0;
 }
 
-.btn-sale:hover {
+.lng-btn-sale:hover {
   background: #FF8786;
   text-decoration: none;
   color: white;
@@ -397,12 +397,12 @@ template {
           box-shadow: rgba(0, 0, 0, 0.2) 0 5px 15px;
 }
 
-.btn-sale:active {
+.lng-btn-sale:active {
   background: #FF8786;
   text-decoration: none;
 }
 
-.btn-promo {
+.lng-btn-promo {
   background: -webkit-gradient(linear, left top, right top, from(#3AA1FF), to(#00F8FF));
   background: -o-linear-gradient(left, #3AA1FF 0%, #00F8FF 100%);
   background: linear-gradient(90deg, #3AA1FF 0%, #00F8FF 100%);
@@ -411,7 +411,7 @@ template {
   display: inline-block;
 }
 
-.btn-promo:hover {
+.lng-btn-promo:hover {
   background: #3AA1FF;
   text-decoration: none;
   color: white;
@@ -419,7 +419,7 @@ template {
           box-shadow: rgba(0, 0, 0, 0.2) 0 5px 15px;
 }
 
-.btn-promo:active {
+.lng-btn-promo:active {
   background: #3AA1FF;
   text-decoration: none;
 }
@@ -507,7 +507,9 @@ body.lock {
   position: relative;
 }
 
-.menu__list > li {
+.lng-menu__list > li {
+  display: inline-block;
+  cursor: pointer;
   position: relative;
   margin: 0 36px 0 0;
   list-style: none;
@@ -682,7 +684,7 @@ a.menu__link:hover {
           align-items: center;
 }
 
-.decs {
+.lng-decs {
   margin-top: 40px;
   max-width: 596px;
   width: 100%;
@@ -736,7 +738,7 @@ a.menu__link:hover {
   position: relative;
 }
 
-.slider__title {
+.lng-slider__title {
   font-size: 64px;
   color: #111111;
   font-family: "Point-Bold", sans-serif;
@@ -1075,6 +1077,7 @@ a.menu__link:hover {
   width: 100%;
   opacity: 0.8;
   margin-bottom: 60px;
+  font-size: 18px;
 }
 
 .partners {
@@ -1209,7 +1212,7 @@ a.menu__link:hover {
 }
 
 .team {
-  margin: 4em 0 2em 0;
+  margin: 4em 0 10em 0;
 }
 
 .team__bg {
@@ -1227,6 +1230,12 @@ a.menu__link:hover {
   font-weight: bold;
   letter-spacing: -0.01em;
   padding-top: 0.54em;
+  text-align: left;
+}
+
+.team__desc {
+  font-size: 18px;
+  max-width: 580px;
 }
 
 .team__cards {
@@ -1245,7 +1254,7 @@ a.menu__link:hover {
       flex-wrap: wrap;
   -ms-flex-item-align: normal;
       align-self: normal;
-  height: 369px;
+  min-height: 369px;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -1380,6 +1389,10 @@ a.menu__link:hover {
   padding-top: 40px;
 }
 
+.footer__item {
+  margin-bottom: 20px;
+}
+
 .footer__bg {
   background: -webkit-gradient(linear, left top, right top, from(#3AA1FF), to(#00F8FF));
   background: -o-linear-gradient(left, #3AA1FF 0%, #00F8FF 100%);
@@ -1402,7 +1415,6 @@ a.menu__link:hover {
   font-weight: bold;
   letter-spacing: -1%;
   font-size: 24px;
-  padding-bottom: 16px;
   color: #ffffff;
 }
 
@@ -1412,7 +1424,7 @@ a.menu__link:hover {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 @media only screen and (min-width: 769px) {
@@ -1435,7 +1447,7 @@ a.menu__link:hover {
     margin-right: 60px;
   }
 
-  .menu__list {
+  .lng-menu__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1444,7 +1456,7 @@ a.menu__link:hover {
             align-items: center;
   }
 
-  .menu__list > li {
+  .lng-menu__list > li {
     margin: 0 26px 0 0;
   }
 }
@@ -1541,11 +1553,15 @@ a.menu__link:hover {
             align-items: center;
   }
 
-  .decs {
+  .lng-decs {
     font-size: 22px;
     margin: 40px 0;
     line-height: 1.6;
     max-width: 700px;
+  }
+
+  .reviews-slider__text {
+    font-size: 18px;
   }
 }
 
@@ -1612,16 +1628,16 @@ a.menu__link:hover {
 }
 
 @media only screen and (max-width: 1199px) {
-  .slider__title,
+  .lng-slider__title,
   .skills__title,
   .advantage__title,
   .clients__title,
-  .reviews__title {
+  .reviews__title,
+  .team__title {
     font-size: 36px;
     font-weight: bold;
     letter-spacing: -0.01em;
     margin: 2.6em 0 0.4em 0;
-    text-align: center;
   }
 
   .slider__bg {
@@ -1701,6 +1717,10 @@ a.menu__link:hover {
   .reviews__title {
     margin: 0;
     padding: 0;
+  }
+
+  .footer-wrapper {
+    justify-items: baseline;
   }
 }
 
@@ -1796,11 +1816,11 @@ a.menu__link:hover {
     left: 0;
   }
 
-  .menu__list > li {
+  .lng-menu__list > li {
     margin: 0 0 30px 0;
   }
 
-  .menu__list > li:last-child {
+  .lng-menu__list > li:last-child {
     margin-bottom: 0;
   }
 
@@ -1965,8 +1985,8 @@ a.menu__link:hover {
 }
 
 @media only screen and (max-width: 599px) {
-  .btn-sale,
-  .btn-promo {
+  .lng-btn-sale,
+  .lng-btn-promo {
     padding: 16px 28px;
     font-size: 18px;
     margin: 0.3em 0;
@@ -2011,22 +2031,22 @@ a.menu__link:hover {
     padding: 16px 24px 10px;
   }
 
-  .decs {
+  .lng-decs {
     font-size: 15px;
     margin: 20px 0;
     line-height: 1.7;
   }
 
-  .slider__title,
+  .lng-slider__title,
   .skills__title,
   .advantage__title,
   .clients__title,
-  .reviews__title {
+  .reviews__title,
+  .team__title {
     font-size: 28px;
     font-weight: bold;
     letter-spacing: -0.01em;
     margin: 2.6em 0 0.4em 0;
-    text-align: center;
   }
 
   .slider__bg {
@@ -2177,6 +2197,10 @@ a.menu__link:hover {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   }
 
+  .clients__desc {
+    font-size: 15px;
+  }
+
   .reviews {
     margin: 1.6em 0 0 0;
   }
@@ -2197,11 +2221,19 @@ a.menu__link:hover {
   .reviews-slider__text {
     font-size: 15px;
   }
+
+  .team__desc {
+    font-size: 15px;
+  }
+
+  .footer-wrapper {
+    padding: 40px;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 768px) {
-  .btn-sale,
-  .btn-promo {
+  .lng-btn-sale,
+  .lng-btn-promo {
     padding: 24px 32px;
     font-size: 24px;
     margin: 0.3em 0;
@@ -2242,7 +2274,7 @@ a.menu__link:hover {
     padding: 26px 36px 20px;
   }
 
-  .decs {
+  .lng-decs {
     margin: 20px 0;
     line-height: 1.7;
     font-size: 18px;
@@ -2250,8 +2282,8 @@ a.menu__link:hover {
 }
 
 @media (min-width: 769px) and (max-width: 1022px) {
-  .btn-sale,
-  .btn-promo {
+  .lng-btn-sale,
+  .lng-btn-promo {
     padding: 16px 28px;
     font-size: 18px;
     margin: 0 0.3em;
@@ -2305,7 +2337,7 @@ a.menu__link:hover {
     padding: 16px 24px 10px;
   }
 
-  .decs {
+  .lng-decs {
     font-size: 18px;
     margin: 40px 0;
     line-height: 1.6;
@@ -2330,8 +2362,8 @@ a.menu__link:hover {
 }
 
 @media (min-width: 1023px) and (max-width: 1199px) {
-  .btn-sale,
-  .btn-promo {
+  .lng-btn-sale,
+  .lng-btn-promo {
     padding: 16px 28px;
     font-size: 18px;
     margin: 0 0.3em;
@@ -2392,7 +2424,7 @@ a.menu__link:hover {
     padding: 20px 40px 18px;
   }
 
-  .decs {
+  .lng-decs {
     font-size: 18px;
     margin: 30px 0;
     line-height: 1.6;
@@ -2417,8 +2449,8 @@ a.menu__link:hover {
 }
 
 @media (min-width: 1200px) and (max-width: 1600px) {
-  .btn-sale,
-  .btn-promo {
+  .lng-btn-sale,
+  .lng-btn-promo {
     padding: 16px 28px;
     font-size: 18px;
     margin: 0 0.3em;
@@ -2472,7 +2504,7 @@ a.menu__link:hover {
     padding: 20px 40px 18px;
   }
 
-  .decs {
+  .lng-decs {
     font-size: 18px;
     margin: 30px 0;
     line-height: 1.6;
