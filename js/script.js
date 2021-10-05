@@ -300,7 +300,7 @@ const langArr = {
   "team-card7":{
     "ru": ['Владимир Олейников', 'Business Development Director (Ukraine)'],
 		"en": ['Volodymyr Oleynyk', 'Business Development Director (Ukraine)'],
-		"ua": ['Володимир Олейник', 'Business Development Director (Ukraine)']
+		"ua": ['Володимир Олєйников', 'Business Development Director (Ukraine)']
   },
   "team-card8":{
     "ru": ['Эмма Джанг', 'Business Development Manager (Asia)'],
@@ -327,6 +327,11 @@ const langArr = {
 		"en": ['United Kingdom,', 'London,<br>13 John Prince’s St., 2nd floor'],
 		"ua": ['Великобританія,', 'Лондон,<br>вул. Джона Принца 13, Лондон W1G 0J, 2-й поверх']
   },
+  "cta__wrapper":{
+    "ru": ['Увеличьте конверсию в <span>10 раз</span>', 'с минимальными затратами ресурсов'],
+		"en": ['Increase your conversion by <span>10 times</span>', 'with minimal resource consumption'],
+		"ua": ['Збільште конверсію в <span> 10 разів </ span>', 'з мінімальними витратами ресурсів']
+  },
 };
 
 
@@ -334,10 +339,16 @@ const langArr = {
 new Swiper('.slider-container',{
 	slidesPerView: 1,
 	watchOverflow: true,
+	loop:false,
 	spaceBetween:16,
 	touchRatio:2,
 	grabCursor: true,
 	watchOverflow: true,
+	autoplay:{
+		delay:5000,
+		stopOnLastSlide:true
+	},
+	speed:2000,
 	navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
