@@ -1684,6 +1684,15 @@ li.menu__link:hover {
   }
 }
 
+@media only screen and (min-width: 1920px) {
+  .banner {
+    display: block;
+    top: 0;
+    right: -7em;
+    max-width: 1110px;
+  }
+}
+
 @media only screen and (max-width: 1400px) {
   .skills__info {
     display: -webkit-box;
