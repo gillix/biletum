@@ -836,6 +836,10 @@ li.menu__link:hover {
   position: relative;
 }
 
+.skills__magicImg {
+  display: none;
+}
+
 .skills__title {
   font-size: 64px;
   color: #111111;
@@ -1986,6 +1990,14 @@ li.menu__link:hover {
             align-items: center;
   }
 
+  .skills__magicImg {
+    display: block;
+    padding-top: 20px;
+    width: 240px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
   .skills-expo,
   .skills-tiket {
     max-width: 540px;
@@ -1995,9 +2007,14 @@ li.menu__link:hover {
 
   .skills-biletum {
     display: block;
-    height: 500px;
+    height: 200px;
     margin: 0 16px;
     background-size: contain;
+    background-image: none;
+  }
+
+  .skills__magic {
+    top: 30px;
   }
 
   .skills__logo {
