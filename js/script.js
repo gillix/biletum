@@ -198,9 +198,9 @@ const langArr = {
 		"ua": ['Клієнти', 'Нашими послугами вже користуються найбільші організатори заходів Китаю, Росії та Східної Європи, зокрема Canton Fair, UBM, VNU, HKTDC, SIEC. Загальний обіг поточних клієнтів становить понад $2 млрд. на рік.',]
 	},
   "partners":{
-		"ru": ['Партнеры', 'Привлечь ещё больше посетителей на мероприятия поможет сеть партнёров Biletum.',],
-		"en": ['Partners', 'The Biletum network of partners would help to attract even more visitors to the events.'],
-		"ua": ['Партнери', 'Залучити ще більше відвідувачів на заходи допоможе мережа партнерів Biletum.',]
+		"ru": ['Партнеры', 'Привлечь ещё больше посетителей на мероприятия поможет сеть партнёров Biletum – 12 000 контактов по всему миру.',],
+		"en": ['Partners', "Biletum's network of partners will help attract even more visitors to the events – 12 000 contacts around the world."],
+		"ua": ['Партнери', 'Залучити ще більше відвідувачів на заходи допоможе мережу партнерів Biletum – 12 000 контактів по всьому світу.']
 	},
   "partners-tech":{
 		"ru": ['Технические партнеры', 'Наши партнеры обеспечат техническую поддержку онлайн и гибридных мероприятий любого масштаба.',],
@@ -293,19 +293,19 @@ const langArr = {
 		"ua": ['Альона Яковина', 'Chief Financial Officer (Europe, Asia)']
   },
   "team-card6":{
-    "ru": ['Святослав Алёхин', 'Business Development Director (Russia)'],
-		"en": ['Svyatoslav Alyokhin', 'Business Development Director (Russia)'],
-		"ua": ['Святослав Альохін', 'Business Development Director (Russia)']
+    "ru": ['Святослав Алёхин', 'Business Development Director (Europe)'],
+		"en": ['Svyatoslav Alyokhin', 'Business Development Director (Europe)'],
+		"ua": ['Святослав Альохін', 'Business Development Director (Europe)']
   },
   "team-card7":{
-    "ru": ['Владимир Олейников', 'Business Development Director (Ukraine)'],
-		"en": ['Volodymyr Oleynyk', 'Business Development Director (Ukraine)'],
-		"ua": ['Володимир Олєйников', 'Business Development Director (Ukraine)']
+    "ru": ['Диана Зилецкая', 'Business Development Director (Ukraine)'],
+		"en": ['Diana Ziletska', 'Business Development Director (Ukraine)'],
+		"ua": ['Діана Зілецька', 'Business Development Director (Ukraine)']
   },
   "team-card8":{
-    "ru": ['Эмма Джанг', 'Business Development Manager (Asia)'],
-		"en": ['Emma Zhang', 'Business Development Manager (Asia)'],
-		"ua": ['Емма Джанґ', 'Business Development Manager (Asia)']
+    "ru": ['Эмма Джанг', 'Business Development Director (Asia)'],
+		"en": ['Emma Zhang', 'Business Development Director (Asia)'],
+		"ua": ['Емма Джанґ', 'Business Development Director (Asia)']
   },
   "footer__item1":{
     "ru": ['Украина', 'Киев,<br>ул. Казимира Малевича, 86-Л, 2-й этаж'],
@@ -323,9 +323,9 @@ const langArr = {
 		"ua": ['Китай', 'Шанхай,<br>обл. 2115, 21F, East Ocean Centre Phase, №.618 East Yan An Road']
   },
   "footer__item4":{
-    "ru": ['Великобритания,', 'Лондон,<br>ул. Джона Принца, 13, 2-й&nbsp;этаж'],
-		"en": ['United Kingdom,', 'London,<br>13 John Prince’s St., 2nd&nbsp;floor'],
-		"ua": ['Великобританія,', 'Лондон,<br>вул. Джона Принца, 13, Лондон W1G 0J, 2-й&nbsp;поверх']
+    "ru": ['Великобритания,', 'Лондон,<br>ул. Джона Принца, 13, <br>2-й&nbsp;этаж'],
+		"en": ['United Kingdom,', 'London,<br>13 John Prince’s St., <br>2nd&nbsp;floor'],
+		"ua": ['Великобританія,', 'Лондон,<br>вул. Джона Принца, 13, <br>Лондон W1G 0J, 2-й&nbsp;поверх']
   },
   "cta__wrapper":{
     "ru": ['Увеличьте конверсию в <span>10 раз</span>', 'с минимальными затратами ресурсов'],
