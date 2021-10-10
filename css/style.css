@@ -1994,7 +1994,10 @@ li.menu__link:hover {
   }
 
   .skills-biletum {
-    display: none;
+    display: block;
+    height: 500px;
+    margin: 0 16px;
+    background-size: contain;
   }
 
   .skills__logo {
@@ -2227,10 +2230,6 @@ li.menu__link:hover {
     max-width: 400px;
     width: 100%;
     margin-bottom: 1.2em;
-  }
-
-  .skills-biletum {
-    display: none;
   }
 
   .skills__logo {
