@@ -298,9 +298,9 @@ const langArr = {
 		"ua": ['Святослав Альохін', 'Business Development Director (Europe)']
   },
   "team-card7":{
-    "ru": ['Диана Зилецкая', 'Business Development Director (Ukraine)'],
-		"en": ['Diana Ziletska', 'Business Development Director (Ukraine)'],
-		"ua": ['Діана Зілецька', 'Business Development Director (Ukraine)']
+    "ru": ['Диана Зилецкая', 'Chief Marketing Officer (Europe, Asia)'],
+		"en": ['Diana Ziletska', 'Chief Marketing Officer (Europe, Asia)'],
+		"ua": ['Діана Зілецька', 'Chief Marketing Officer (Europe, Asia)']
   },
   "team-card8":{
     "ru": ['Эмма Джанг', 'Business Development Director (Asia)'],
@@ -308,14 +308,14 @@ const langArr = {
 		"ua": ['Емма Джанґ', 'Business Development Director (Asia)']
   },
   "footer__item1":{
-    "ru": ['Украина', 'Киев,<br>ул. Казимира Малевича, 86-Л, 2-й этаж'],
-		"en": ['Ukraine', 'Kyiv,<br>86L Kazymyra Malevicha, St., 2nd floor'],
-		"ua": ['Україна', 'Київ,<br>вул. Казимира Малевича, 86Л, ​​2-й поверх']
+    "ru": ['Украина', 'Киев,<br>ул. Казимира Малевича, 86-Л, <br>2-й&nbsp;этаж'],
+		"en": ['Ukraine', 'Kyiv,<br>86L Kazymyra Malevicha, St., <br>2nd&nbsp;floor'],
+		"ua": ['Україна', 'Київ,<br>вул. Казимира Малевича, 86Л, <br>​​2-й&nbsp;поверх']
   },
   "footer__item2":{
-    "ru": ['Россия', 'Москва,<br>ул. Летниковская, 10, строение 1, 7-й этаж'],
-		"en": ['Russia', 'Moscow,<br>10 Letnikovskaya, St., building 1, 7th floor'],
-		"ua": ['Росія', 'Москва,<br>вул. Летніковська, 10, корпус 1, 7-й поверх']
+    "ru": ['Россия', 'Москва,<br>ул. Летниковская, 10, строение 1, <br>7-й&nbsp;этаж'],
+		"en": ['Russia', 'Moscow,<br>10 Letnikovskaya, St., building 1, <br>7th&nbsp;floor'],
+		"ua": ['Росія', 'Москва,<br>вул. Летніковська, 10, корпус 1, <br>7-й&nbsp;поверх']
   },
   "footer__item3":{
     "ru": ['Китай', 'Шанхай,<br>р-н. 2115, 21F, East Ocean Centre Phase, № 618 East Yan An Road'],
@@ -323,9 +323,9 @@ const langArr = {
 		"ua": ['Китай', 'Шанхай,<br>обл. 2115, 21F, East Ocean Centre Phase, №.618 East Yan An Road']
   },
   "footer__item4":{
-    "ru": ['Великобритания,', 'Лондон,<br>ул. Джона Принца, 13, <br>2-й&nbsp;этаж'],
-		"en": ['United Kingdom,', 'London,<br>13 John Prince’s St., <br>2nd&nbsp;floor'],
-		"ua": ['Великобританія,', 'Лондон,<br>вул. Джона Принца, 13, <br>Лондон W1G 0J, 2-й&nbsp;поверх']
+    "ru": ['Великобритания', 'Лондон,<br>ул. Джона Принца, 13, <br>2-й&nbsp;этаж'],
+		"en": ['United Kingdom', 'London,<br>13 John Prince’s St., <br>2nd&nbsp;floor'],
+		"ua": ['Великобританія', 'Лондон,<br>вул. Джона Принца, 13, <br>Лондон W1G 0J, 2-й&nbsp;поверх']
   },
   "cta__wrapper":{
     "ru": ['Увеличьте конверсию в <span>10 раз</span>', 'с минимальными затратами ресурсов'],
